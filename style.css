@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+/* header {
+    background-color: lightblue;
+    width: auto;
+    color: lightblue; */
+
+}
+
+.header-ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+.header-li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: lightblue;
+}
+
+h1, strong {
+    color: lightblue;
+}
+
+
+.button {
+    display: inline-block;
+
+    width: 100px;
+
+    padding: 8px;
+    /* Margin shorthand: same as margin-right: 25px; */
+    /* margin: 0 25px 0 0; */
+    margin-right: 25px;
+
+    text-align: center;
+
+    /* For resetting styles of the <a> */
+    text-decoration: none;
+    color: white;
+    font-style: strong;
+  }
+
+.orange-button {
+    background-color: orange;
+  }
+
+  .blue-button {
+    background-color: blue;
+  }
+
+  .green-button {
+    background-color: green;
+  }
+
+  .rounded-lg {
+    border-radius: 16px;
+  }
+
+  
